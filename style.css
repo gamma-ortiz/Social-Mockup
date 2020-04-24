@@ -3,18 +3,23 @@
 
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+
+    
+    
 }
 
 .header {
-    width: 850px;
+    width: 848px;
     height: 400px;
     background-color: steelblue;
+    border: 2px solid darkblue;
     margin: 0 auto;
 }
 
 .profile-img {
     background-color: tomato;
+    border: 2px solid darkblue;
     width: 150px;
     height: 150px;
     position: relative;
@@ -26,44 +31,90 @@
     
 .white {
     color: white;
+    
 }
 
 .move {
     position: relative;
-    top: 200px;
+    top: 255px;
     left: 65px;
 }
 
 
 
 .header-below {
-    background-color: lightblue;
-    width: 850px;
+    background-color: whitesmoke;
+    border: 2px solid darkblue;
+    width: 848px;
     height: 60px;
     margin: 0 auto;
-    
-    
+    position: relative;
+    top: -20px;
+    padding-top: 5px;
 }
-    
+
 
 .nav-bar {
     position: relative;
     float: right;
-    top: 100px;
+    top: 200px;
     right: 25px;
 }
-  
-.underbar li {
-    display: inline;
+.underbar {
+    display: flex;
     list-style-type: none;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-direction: row;
+}
+
+.column {
+    background-color: steelblue;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#column-color {
+    background-color: steelblue;
+    border: 2px solid darkblue;
+    width: 326px;
     position: relative;
+    top: 100px;
+    left: 529px;
+
+    
+}
+
+#column-color2 {
+    background-color: steelblue;
+    border: 2px solid darkblue;
+    width: 510px;
+    float: right;
+    position: relative;
+    top: 100px;
+    left: -530px;
+}
+.profile-img2 {
+    background-color: tomato;
+    border: 2px solid darkblue;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: left;
+    top: 0px;
+    left: -5px;
 }
 
 
 
 
 
-
-    
-
-    
